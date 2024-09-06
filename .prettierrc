@@ -1,0 +1,46 @@
+{
+  "singleQuote": true,
+
+  "semi": false,
+
+  "bracketSpacing": true,
+
+  "trailingComma": "none",
+
+  "bracketSameLine": false,
+
+  "arrowParens": "avoid",
+
+  "endOfLine": "auto",
+
+  "printWidth": 150,
+
+  "htmlWhitespaceSensitivity": "ignore",
+
+  "overrides": [
+    {
+      "files": "*.wxml",
+      "options": {
+        "parser": "html"
+      }
+    },
+    {
+      "files": "*.html",
+      "options": {
+        "parser": "html"
+      }
+    },
+    {
+      "files": "*.vue",
+      "options": {
+        "parser": "vue"
+      }
+    },
+    {
+      "files": "*.tsx",
+      "options": {
+        "parser": "typescript"
+      }
+    }
+  ]
+}
